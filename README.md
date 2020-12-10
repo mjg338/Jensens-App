@@ -1,6 +1,6 @@
 # Jensen's Measure for S&P500 Securities
 
-This application uses Jensen's Measure to assess the quality of individual stocks in a user given time window using a given moving average. 
+This application uses Jensen's Measure to assess the quality of individual stock picks in a user given time window using a given moving average. 
 
 The data is sourced from yahoo finance, and is organized into several features: day, company, company stock ticker, sub-sector, sector, day average, 7 day average, 50 day average, 200 day average, weight. 
 
