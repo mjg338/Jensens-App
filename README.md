@@ -12,7 +12,7 @@ Apart from showing the numerical values for alpha and beta, the metrics table at
 
 In instances where the regression score is less than 90%, it may be worth using a longer moving average to buff out some of the volatility and produce a model that better desribes the input data. Of course, these are individual stocks being used and not the diversified portfolios for which this measure is often used. Given that individual stocks will most often be more volatile that diverse portfolies, it is expected that there will be periods that are simply not amenable to regression.
 
-Still, many periods are, meaning this application can be great for getting a quick assessment of a company's past stock performance.
+Still, many periods are, meaning this application can be great for handling a quick assessment of a company's past stock performance.
 
 
 Software used:
