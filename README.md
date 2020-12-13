@@ -17,14 +17,14 @@ Still, many periods are, meaning this application can be great for getting a qui
 
 Software used:
 
-dash
-pandas
-numpy
-matplotlib
-datetime
-sklearn
-scipy
-plotly
-datetime
-seaborn
+dash,
+pandas,
+numpy,
+matplotlib,
+datetime,
+sklearn,
+scipy,
+plotly,
+datetime,
+seaborn,
 statsmodels
