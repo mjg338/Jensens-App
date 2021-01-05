@@ -1,21 +1,20 @@
 # Jensen's Measure for S&P500 Securities
 
-This application uses Jensen's Measure to assess the quality of individual stock picks in a user given time window using a given moving average. 
+This application uses Jensen's Measure to assess the volatility and risk adjusted returns of any given company on the S&P 500. A video explaining the application and its uses is given here:
 
-The data is sourced from yahoo finance, and is organized into several features: day, company, company stock ticker, sub-sector, sector, day average, 7 day average, 50 day average, 200 day average, weight. 
+https://youtu.be/NieKFjTBZ1c
 
-From this a plot can be generated for any given company on the S&P 500 using the given time window and moving average. This plot will produce a time series of share prices for the company selected, its sub-sector index, sector index, and an index of the S&P500 (VOO). This plot can serve as a useful visual to compare the performances of any of the 4 times series. 
+The csv files, which are too large for an upload to github, can be downloaded here:
 
-The application will also produce a linear regression to quantify Jensen's Alpha and Beta. The linear regression produces a best fit based on a scatter of the percent returns for the stock and index within the given time frame. The slope of this best fit measures the volatility of the stock with respect to the index, and the intercept describes whether or not the returns of the stock were "worth" any additional risk taken. Even with a beta identifying considerably higher stock volality, a positive alpha suggests a quality stock choice.
-
-Apart from showing the numerical values for alpha and beta, the metrics table at the bottom of the application can be used for assessing whether or not the regression is well fit to the data.
-
-In instances where the regression score is less than 90%, it may be worth using a longer moving average to buff out some of the volatility and produce a model that better desribes the input data. Of course, these are individual stocks being used and not the diversified portfolios for which this measure is often used. Given that individual stocks will most often be more volatile that diverse portfolies, it is expected that there will be periods that are simply not amenable to regression.
-
-Still, many periods are, meaning this application can be great for handling a quick assessment of a company's past stock performance.
+https://drive.google.com/drive/folders/1jUeswnuTn4Rcpqkp4BtBrvQ5szKMdKRM?usp=sharing
 
 
-Software used:
+Based on the research I've done, I do not suggest people buy securities solely on the basis of high alpha scores, only that these companies are consistently outperforming most of the public market in the chosen time period. The decision to purchase a selection of individual stocks with high risk-adjusted returns (i.e. high alpha scores) is in and of itself and individual choice, and one that should be based on a number of other factors as well. Still, I would not be inclined to purchase stock in an individual company that did not consistently outperform the rest of the market once volatility had been adjusted for, so the measure is certainly still important in my view. 
+
+Other things to be considered would be things like financial resilience, as in, how much volatility is an owner willing and able to take on? 
+
+
+Packages used:
 
 dash,
 pandas,
