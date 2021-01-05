@@ -29,6 +29,6 @@ seaborn,
 statsmodels
 
 
-App uploaded uses heroku and gunicorn. Check it out here:
+App uploaded using heroku and gunicorn. Check it out here:
 
 https://jensens-app.herokuapp.com
