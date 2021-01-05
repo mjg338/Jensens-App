@@ -27,3 +27,8 @@ plotly,
 datetime,
 seaborn,
 statsmodels
+
+
+App uploaded uses heroku and gunicorn. Check it out here:
+
+https://jensens-app.herokuapp.com
