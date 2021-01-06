@@ -33,4 +33,4 @@ App uploaded using heroku and gunicorn:
 
 https://jensens-app.herokuapp.com
 
-If you have trouble loading, try a refresh or coming back to the app after a few minutes.
+If you have trouble loading, try a refresh or coming back to the app after a few minutes. If the app hasnt been used by anyone recently, it will take 5-10 minutes for the dyno running the app to boot up. Once its going the app should run smoothly.
