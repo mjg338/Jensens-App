@@ -32,3 +32,5 @@ statsmodels
 App uploaded using heroku and gunicorn:
 
 https://jensens-app.herokuapp.com
+
+Occasionally its a bit slow to load, and more occasionally the charts will not load. I'm using a hobby dyno from heroku, because its inexpensive, but of course that means performance isn't 100% consistent. If you're having persistent troubles, try again in 10 minutes, or if you're configured to run python you can download the app and csv's to run locally. 
